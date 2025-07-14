@@ -1,0 +1,47 @@
+.card {
+  background: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 20px;
+  width: 320px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  margin: 0 auto;
+}
+
+.dark .card {
+  background: rgba(50, 50, 50, 0.9);
+  color: #f1f1f1;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.desc {
+  text-transform: capitalize;
+  font-weight: 500;
+  margin: 5px 0;
+}
+
+.card h3 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.details p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.details span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+}
